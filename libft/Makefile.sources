@@ -1,0 +1,56 @@
+#******************************************************************************#
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    Makefile                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: rbenjami <rbenjami@student.42.fr>          +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2013/11/20 09:49:07 by rbenjami          #+#    #+#              #
+#    Updated: 2013/11/20 11:31:21 by rbenjami         ###   ########.fr        #
+#                                                                              #
+#******************************************************************************#
+
+SRC_LIB		=	put/ft_putstr.c			\
+				put/ft_putchar.c		\
+				put/ft_putmem.c			\
+				put/ft_putnbr_base.c	\
+				put/ft_putendl.c		\
+				\
+				str/ft_strlen.c			\
+				str/ft_strchr.c			\
+				str/ft_strstr.c			\
+				str/ft_strncpy.c		\
+				str/ft_strcmp.c			\
+				str/ft_strnew.c			\
+				str/ft_strjoin.c		\
+				str/ft_colorize.c		\
+				str/ft_strdup.c			\
+				str/ft_strsplit.c		\
+				str/ft_strsub.c			\
+				str/ft_trunc.c			\
+				\
+				tab/ft_tabsize.c		\
+				tab/ft_freetab.c		\
+				tab/ft_cpytab.c			\
+				\
+				error/exit_error.c		\
+				error/error.c			\
+				\
+				convert/ft_itoa.c		\
+				convert/ft_atoi.c		\
+				\
+				mem/ft_memalloc.c		\
+				mem/ft_bzero.c			\
+				mem/ft_memrealloc.c		\
+				mem/ft_memdel.c			\
+				mem/ft_memcpy.c			\
+				\
+				is/ft_isalpha.c			\
+				is/ft_isascii.c			\
+				is/ft_isdigit.c			\
+				is/ft_isprint.c			\
+				is/ft_isspace.c			\
+				\
+				utils/get_next_line.c	\
+				utils/pattern.c			\
+				utils/add_trunc.c
